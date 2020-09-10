@@ -8,7 +8,7 @@ A REDCap External Module that allows saving and returning later without email an
 
 ## Installation
 
-- Clone this repo into `<redcap-root>/modules/redcap_geocoding_v\<version-number>`, or
+- Clone this repo into `<redcap-root>/modules/save_and_return_later\<version-number>`, or
 
 - Go to _Control Center > Technical / Developer Tools > External Modules_ and enable Save And Return Later.
 
