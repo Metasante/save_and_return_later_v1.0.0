@@ -1,27 +1,27 @@
 {
-    "name": "Save and return later without email and return code",
-    "description": "Enable this module to save and return later without email and return code",
-    "namespace": "Unisante\\SaveAndReturnLater",
-    "authors": [
-        {
-            "name": "Noemi Romano",
-            "email": "noemi.romano@epfl.ch",
-            "institution": "Ecole Polytéchique Fédérale de Lausanne"
-        }
-    ],
-    "permissions": [
-        "redcap_every_page_top"
-    ],
-    "project-settings": [
-        {
-            "key": "study_name",
-            "name": "Study Name",
-            "required": false,
-            "type": "text"
-        }
-    ],
-    "no-auth-pages": [
-        "index",
-        "redirect"
-    ]
+  "name": "Save and return later without email and return code",
+  "description": "Enable this module to save and return later without email and return code",
+
+  "namespace": "Unisante\\SaveAndReturnLater",
+
+  "authors": [
+    {
+      "name": "Noemi Romano",
+      "email": "noemi.romano@epfl.ch",
+      "institution": "Ecole Polytéchique Fédérale de Lausanne"
+    }
+  ],
+
+  "permissions": [
+    "redcap_every_page_top"
+  ],
+
+  "project-settings" : [
+    {
+      "key": "study_name",
+      "name": "Study Name",
+      "required": false,
+      "type": "text"
+    }
+  ]
 }

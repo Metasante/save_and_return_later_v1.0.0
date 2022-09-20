@@ -38,16 +38,19 @@
 }
 
 #redirect_to_instruments {
-    background-color: #FFF !important;
-    color: #0451A1 !important;
-    border-color: #0451A1 !important;
-}
+  background-color: #0451A1 !important;
+  color: #FFF !important;
+  border-color: #0451A1 !important;
+}  
+  
+  
+#redirect_to_instruments:hover {
+  background-color: #FFF !important;
+  color: #0451A1 !important;
+  border-color: #0451A1 !important;
+}  
+  
 
-.jqbutton:hover, .ui-button:hover, .ui-corner-all:hover, .ui-widgetbutton:hover, #redirect_to_instruments:hover{
-   background-color: #0451A1 !important;
-   color: white !important;
-
-}
 
 button:focus, button:hover, a:focus, a:hover {
     outline: none;
